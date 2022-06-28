@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'web-api-reserva-citas'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3396C128D2064AB587952ABA9D67E9BF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E92912DE4D0541529508A1163C977907 }}
           package: .
