@@ -2,7 +2,7 @@
   include_once "somosioticos/somosioticos_dialogflow.php";
   credenciales('lurias','luriasle.');
 
-  $servername = "us-cdbr-east-06.cleardb.net";
+  $servername = "localhost";
   $username = "bd6c4fca944d87";
   $password = "5f9c97af";
   $dbname = "heroku_e24b146733fddbd";
