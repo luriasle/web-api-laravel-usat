@@ -17,14 +17,14 @@ class WorkDaysTableSeeder extends Seeder
         	WorkDay::create([
         		'day' => $i,
 		        'active' => ($i==3), // Thursday
-		        
+
 		        'morning_start' => ($i==3 ? '07:00:00' : '05:00:00'),
 		        'morning_end' => ($i==3 ? '09:30:00' : '05:00:00'),
 
 		        'afternoon_start' => ($i==3 ? '15:00:00' : '13:00:00'),
 		        'afternoon_end' => ($i==3 ? '18:00:00' : '13:00:00'),
 
-		        'user_id' => 3 // Médico Test (UsersTableSeeder)
+		        'user_id' => 24 // Médico Test (UsersTableSeeder)
         	]);
         }
     }

@@ -1,9 +1,19 @@
 <?php
 
-Route::get('/', function () {
-    return redirect('/login');
-});
+/*Route::get('/welcome', function () {
+    //return redirect('/login');
+    //dd('holaa');
+    return view('welcome');
+});*/
 
+Route::view('/', 'welcome');
+Route::view('/citas', 'citas');
+
+Route::view('/medicos', 'medicos');
+Route::view('/red-de-clinicas', 'red-de-clinicas');
+Route::view('/sobre-grupo2', 'sobre-grupo2');
+Route::view('/covid19', 'covid19');
+Route::view('/contacto', 'contacto');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home'); // {{ route('home') }}
@@ -16,10 +26,10 @@ Route::middleware(['auth', 'admin'])->namespace('Admin')->group(function () {
 	Route::post('/specialties', 'SpecialtyController@store');
 	Route::put('/specialties/{specialty}', 'SpecialtyController@update');
 	Route::delete('/specialties/{specialty}', 'SpecialtyController@destroy');
-	
+
 	// Doctors
 	Route::resource('doctors', 'DoctorController');
-	
+
 	// Patients
 	Route::resource('patients', 'PatientController');
 
@@ -41,12 +51,12 @@ Route::middleware('auth')->group(function () {
 	Route::get('/profile', 'UserController@edit');
 	Route::post('/profile', 'UserController@update');
 
-	Route::middleware('phone')->group(function () {	
+	Route::middleware('phone')->group(function () {
 		Route::get('/appointments/create', 'AppointmentController@create');
 		Route::post('/appointments', 'AppointmentController@store');
 	});
 
-	Route::get('/appointments', 'AppointmentController@index');	
+	Route::get('/appointments', 'AppointmentController@index');
 	Route::get('/appointments/{appointment}', 'AppointmentController@show');
 
 	Route::get('/appointments/{appointment}/cancel', 'AppointmentController@showCancelForm');

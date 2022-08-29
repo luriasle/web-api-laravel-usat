@@ -30,6 +30,6 @@ class SpecialtiesTableSeeder extends Seeder
     	}
 
         // Médico Test
-        User::find(3)->specialties()->save($specialty);        
+        User::find(24)->specialties()->save($specialty);
     }
 }

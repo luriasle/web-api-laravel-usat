@@ -4,12 +4,11 @@
     <meta charset="utf-8">
     <meta name="keywords" content="​Siempre estamoslistos para ayudar, !Tenemos pacientes siendo monitoreados por médicos!, ​¿Cómo trabajamos?, ​lunes — viernes8.00&nbsp;am —&nbsp;8.00&nbsp;pmllámenos&nbsp;(111) 252 3366">
     <meta name="description" content="">
-    <title>Bienvenido</title>
+    <title>Citas</title>
     <link rel="stylesheet" href="{{asset('css/page-client/nicepage.css')}}" media="screen">
-<link rel="stylesheet" href="{{asset('css/page-client/Bienvenido.css')}}" media="screen">
-<link rel="stylesheet" href="{{asset('css/style.css')}}" media="screen">
-    <script class="u-script" type="text/javascript" src="{{asset('js/jquery.js')}}" "="" defer=""></script>
-    <script class="u-script" type="text/javascript" src="{{asset('js/page-client/nicepage.js')}}" "="" defer=""></script>
+<link rel="stylesheet" href="{{asset('css/page-client/Citas.css')}}" media="screen">
+<script class="u-script" type="text/javascript" src="{{asset('js/jquery.js')}}" "="" defer=""></script>
+<script class="u-script" type="text/javascript" src="{{asset('js/page-client/nicepage.js')}}" "="" defer=""></script>
     <meta name="generator" content="Nicepage 4.17.10, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
@@ -18,17 +17,17 @@
 		"@context": "http://schema.org",
 		"@type": "Organization",
 		"name": "Cliente-Reserva",
-		"logo": "{{asset('css/page-client/images/default-logo.png')}}",
+		"logo": "images/default-logo.png",
 		"sameAs": []
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Bienvenido">
+    <meta property="og:title" content="Citas">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode" data-lang="es"><header class="u-clearfix u-header u-header" id="sec-49ae"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <a href="https://nicepage.com" class="u-image u-logo u-image-1">
-          <img src="{{asset('css/page-client/images/default-logo.png')}}" class="u-logo-image u-logo-image-1">
+          <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
         </a>
         <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
@@ -40,12 +39,12 @@
           </div>
           <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('/')}}" style="padding: 10px 20px;">Bienvenido</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('citas')}}" style="padding: 10px 20px;">Citas</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('medicos')}}" style="padding: 10px 20px;">Médicos</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('red-de-clinicas')}}" style="padding: 10px 20px;">Red de clínicas</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('sobre-grupo2')}}" style="padding: 10px 20px;">Sobre GRUPO2</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('covid19')}}" style="padding: 10px 20px;">COVID19</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('contacto')}}" style="padding: 10px 20px;">Contacto</a>
+            </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('citas')}}" style="padding: 10px 20px;">Citas</a>
+            </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('medicos')}}" style="padding: 10px 20px;">Médicos</a>
+            </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('red-de-clinicas')}}" style="padding: 10px 20px;">Red de clínicas</a>
+            </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('sobre-grupo2')}}" style="padding: 10px 20px;">Sobre GRUPO2</a>
+            </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('covid19')}}" style="padding: 10px 20px;">COVID19</a>
+            </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="{{url('contacto')}}" style="padding: 10px 20px;">Contacto</a>
 </li>
 @if (Route::has('login'))
                     @auth
@@ -67,13 +66,13 @@
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url('/')}}">Bienvenido</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url('citas')}}">Citas</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url('medicos')}}">Médicos</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url('red-de-clinicas')}}">Red de clínicas</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url('sobre-grupo2')}}">Sobre GRUPO2</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url('covid19')}}">COVID19</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="{{url('contacto')}}">Contacto</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Bienvenido.html">Bienvenido</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Citas.html">Citas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Médicos.html">Médicos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Red-de-clínicas.html">Red de clínicas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Sobre-GRUPO2.html">Sobre GRUPO2</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="COVID19.html">COVID19</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contacto.html">Contacto</a>
 </li>
 @if (Route::has('login'))
                     @auth
@@ -103,7 +102,7 @@
             <div class="u-layout-row">
               <div class="u-container-style u-layout-cell u-left-cell u-size-32 u-layout-cell-1" src="">
                 <div class="u-container-layout u-valign-bottom">
-                  <img class="u-image u-image-contain u-image-1" src="{{asset('css/page-client/images/6158b984e0fd04ce18f390ab2b6eab25.png')}}" data-animation-name="customAnimationIn" data-animation-duration="2000">
+                  <img class="u-image u-image-contain u-image-1" src="images/6158b984e0fd04ce18f390ab2b6eab25.png" data-animation-name="customAnimationIn" data-animation-duration="2000">
                 </div>
               </div>
               <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-28 u-layout-cell-2">
@@ -169,7 +168,7 @@
           <div class="u-repeater u-repeater-1">
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-1">
-                <img class="u-expanded-width u-image u-image-default u-image-1" src="{{asset('css/page-client/images/pexels-chokniti-khongchum-2280571.jpg')}}" alt="" data-image-width="1619" data-image-height="1080"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-1" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="{{asset('css/page-client/images/883407-96df0f47.png')}}" alt=""></span>
+                <img class="u-expanded-width u-image u-image-default u-image-1" src="images/pexels-chokniti-khongchum-2280571.jpg" alt="" data-image-width="1619" data-image-height="1080"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-1" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="images/883407-96df0f47.png" alt=""></span>
                 <div class="u-container-style u-expanded-width u-group u-white u-group-1">
                   <div class="u-container-layout u-valign-bottom u-container-layout-2">
                     <h5 class="u-custom-font u-font-montserrat u-text u-text-1"> Análisis de laboratorio</h5>
@@ -181,7 +180,7 @@
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-3">
-                <img class="u-expanded-width u-image u-image-default u-image-2" src="{{asset('css/page-client/images/2378359_medium2000.jpg')}}" alt="" data-image-width="150" data-image-height="100"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-2" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="{{asset('css/page-client/images/31792-86ed40eb.png')}}" alt=""></span>
+                <img class="u-expanded-width u-image u-image-default u-image-2" src="images/2378359_medium2000.jpg" alt="" data-image-width="150" data-image-height="100"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-2" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="images/31792-86ed40eb.png" alt=""></span>
                 <div class="u-container-style u-expanded-width u-group u-white u-group-2">
                   <div class="u-container-layout u-valign-bottom u-container-layout-4">
                     <h5 class="u-custom-font u-font-montserrat u-text u-text-default u-text-3"> Corazón de Cirugía</h5>
@@ -193,7 +192,7 @@
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-5">
-                <img class="u-expanded-width u-image u-image-default u-image-3" src="{{asset('css/page-client/images/1773337_medium2000.jpg')}}" alt="" data-image-width="1348" data-image-height="1000"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-3" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="{{asset('css/page-client/images/2966334-367e5c43.png')}}" alt=""></span>
+                <img class="u-expanded-width u-image u-image-default u-image-3" src="images/1773337_medium2000.jpg" alt="" data-image-width="1348" data-image-height="1000"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-3" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="images/2966334-367e5c43.png" alt=""></span>
                 <div class="u-container-style u-expanded-width u-group u-white u-group-3">
                   <div class="u-container-layout u-valign-bottom u-container-layout-6">
                     <h5 class="u-custom-font u-font-montserrat u-text u-text-default u-text-5"> Clínica Pediátrica</h5>
@@ -205,7 +204,7 @@
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-7">
-                <img class="u-expanded-width u-image u-image-default u-image-4" src="{{asset('css/page-client/images/2062048_medium2000.jpg')}}" alt="" data-image-width="150" data-image-height="90"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-4" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="{{asset('css/page-client/images/1719695-5cd6b41e.png')}}" alt=""></span>
+                <img class="u-expanded-width u-image u-image-default u-image-4" src="images/2062048_medium2000.jpg" alt="" data-image-width="150" data-image-height="90"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-4" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="images/1719695-5cd6b41e.png" alt=""></span>
                 <div class="u-container-style u-expanded-width u-group u-white u-group-4">
                   <div class="u-container-layout u-valign-bottom u-container-layout-8">
                     <h5 class="u-custom-font u-font-montserrat u-text u-text-default u-text-7"> Clínica de Neurología</h5>
@@ -217,7 +216,7 @@
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-9">
-                <img class="u-expanded-width u-image u-image-default u-image-5" src="{{asset('css/page-client/images/2302047_medium2000.jpg')}}" alt="" data-image-width="150" data-image-height="102"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-5" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="{{asset('css/page-client/images/3700547-790672bf.png')}}" alt=""></span>
+                <img class="u-expanded-width u-image u-image-default u-image-5" src="images/2302047_medium2000.jpg" alt="" data-image-width="150" data-image-height="102"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-5" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="images/3700547-790672bf.png" alt=""></span>
                 <div class="u-container-style u-expanded-width u-group u-white u-group-5">
                   <div class="u-container-layout u-valign-bottom u-container-layout-10">
                     <h5 class="u-custom-font u-font-montserrat u-text u-text-default u-text-9"> Clínica de Patología</h5>
@@ -229,7 +228,7 @@
             </div>
             <div class="u-container-style u-list-item u-repeater-item">
               <div class="u-container-layout u-similar-container u-container-layout-11">
-                <img class="u-expanded-width u-image u-image-default u-image-6" src="{{asset('css/page-client/images/931111_medium2000.jpg')}}" alt="" data-image-width="150" data-image-height="85"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-6" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="{{asset('css/page-client/images/991921-329987e5.png')}}" alt=""></span>
+                <img class="u-expanded-width u-image u-image-default u-image-6" src="images/931111_medium2000.jpg" alt="" data-image-width="150" data-image-height="85"><span class="u-file-icon u-icon u-icon-rounded u-radius-20 u-text-palette-1-base u-white u-icon-6" data-animation-name="customAnimationIn" data-animation-duration="2000"><img src="images/991921-329987e5.png" alt=""></span>
                 <div class="u-container-style u-expanded-width u-group u-white u-group-6">
                   <div class="u-container-layout u-valign-bottom u-container-layout-12">
                     <h5 class="u-custom-font u-font-montserrat u-text u-text-default u-text-11"> Parálisis de tabletas</h5>
@@ -339,7 +338,7 @@
               <div class="u-align-center-lg u-align-left-md u-align-left-sm u-align-left-xl u-container-style u-layout-cell u-left-cell u-size-12 u-size-30-md u-layout-cell-1">
                 <div class="u-container-layout u-valign-top-lg u-valign-top-sm u-valign-top-xl u-container-layout-1">
                   <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="80" data-image-height="40">
-                    <img src="{{asset('css/page-client/images/default-logo.png')}}" class="u-logo-image u-logo-image-1">
+                    <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
                   </a>
                 </div>
               </div>
@@ -431,13 +430,5 @@
         <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 551.13 551.13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d98"></use></svg>
         <svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg>
     </span>
-
-    <div id="chatbot">
-        <iframe width="350" height="430" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/ef71a259-2306-4eb8-8666-ae68c28ba72e"></iframe>
-    </div>
-
-    <a href= "https://wa.link/gudnjs">
-        <img class="my-button-wsp"src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" />
-    </a>
 
 </body></html>

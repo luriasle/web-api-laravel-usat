@@ -1,0 +1,17 @@
+.my-button-wsp{
+    position: fixed;
+    right: 20px;
+    bottom: 12%;
+    width: 70px;
+    height: 70px;
+    z-index: 100
+}
+
+#chatbot{
+    position: fixed;
+    left: 0.5%;
+    bottom: 0%;
+    /*width: 70px;
+    height: 70px;*/
+    z-index: 100
+}
